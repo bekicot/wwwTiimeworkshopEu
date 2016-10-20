@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Home
+title: Trust & Internet Identity Meeting Europe
 position: 1
 ---
 
-
-# Trust & Internt Identity Meeting Europe:
 
 ## Connecting Business - Government - Research & Education
 
@@ -36,8 +34,10 @@ positions, options and best practices for actors in this ecosystem, joining diff
 the Internet?
 
 
-## TIIME 20176 Date & Location
+## TIIME 2017 Date & Location
 
+The workshop will be held on February 22. - 23. 2017 in Vienna.
 
+Venue: Technikum Wien, University of Applied Sciences
 
 Contact: office@identinetics.com
