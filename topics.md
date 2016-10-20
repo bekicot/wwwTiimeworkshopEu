@@ -10,15 +10,15 @@ permalink: /topics
 Internet identity, identity federation and personal data online are complex, continually evolving areas. The event is inspired by similar events such as the Internet Identity Workshop in California and Identity North in Canada.
 Participants will seek deeper understanding, and better solutions to challenges like:
 
-    Technology. Developing feasible and open standards.
-    Privacy. Improve quality and scalability of privacy practices and controls.
-    Personal data ecosystem. Vendor relationship managelemt, personal clouds, data sovereignty.
-    Trust Frameworks. Establishing new paradigms and policy sets.
-    Usability. How can users navigate different identities and understand their data?
-    Economy. How can identity services fit into businesses requirements and opportunities for all stakeholders?
-    Interoperability. On which levels and areas is interoperability necessary or feasible? This is a cross-cutting concern for technical, legal and business views.
-    Deployment and operation. How can different options be supported and exploited in the best way, given the whole range of places and devices.
-    EU project challenges. The European Commission’s projects related to trust and identity like STORK and eID regulation are landmarks on the roadmap. How do other actors relate to and utilize those projects?
+* Technology. Developing feasible and open standards.
+* Privacy. Improve quality and scalability of privacy practices and controls.
+* Personal data ecosystem. Vendor relationship managelemt, personal clouds, data sovereignty.
+* Trust Frameworks. Establishing new paradigms and policy sets.
+* Usability. How can users navigate different identities and understand their data?
+* Economy. How can identity services fit into businesses requirements and opportunities for all stakeholders?
+* Interoperability. On which levels and areas is interoperability necessary or feasible? This is a cross-cutting concern for technical, legal and business views.
+* Deployment and operation. How can different options be supported and exploited in the best way, given the whole range of places and devices.
+* EU project challenges. The European Commission’s projects related to trust and identity like STORK and eID regulation are landmarks on the roadmap. How do other actors relate to and utilize those projects?
 
 
 Besides discussing specific topics in the above areas, there will also be plenty of opportunities for networking among solution providers and seekers, startups, investors and technology pundits. EIW provides a place where skilled people from a wide range of functions and projects in the identity ecosystem gather and work intensively for two days.
@@ -39,30 +39,30 @@ The agenda will be created dynamically by participants at the beginning of each 
 ## Categories
 
     Connecting different types of stakeholders (startups, enterprise, investors, privacy experts)
-    Federation & cloud identity
-    Identity interoperability (cross-border, across sectors, different assurance levels, technologies)
-    Trust Frameworks - business, legal, governance
-    PKI and secure collaboration
-    Identity initiatives - connect, learn, contribute, join
-    User-centric identity management
+* Federation & cloud identity
+* Identity interoperability (cross-border, across sectors, different assurance levels, technologies)
+* Trust Frameworks - business, legal, governance
+* PKI and secure collaboration
+* Identity initiatives - connect, learn, contribute, join
+* User-centric identity management
 
 ## Topics
 
     Attribute management
-    Business cases for federated IDM
-    Discovery service, Account Chooser
-    Delegated authZ, UMA
-    Identity proofing and verification
-    Mobile Strong authentication
-    Mozilla BrowserId
-    Privacy preserving IDM
-    Online reputation
-    Payment and Identity
-    Personal Data Store / Personal Cloud
-    SAML/OpenID/OAuth: Competing vs. hybrid scenarios
-    SCIM
-    WebSSO technologies: OpenID Connect, OAuth, JWT, JOSE
-    XDI
+* Business cases for federated IDM
+* Discovery service, Account Chooser
+* Delegated authZ, UMA
+* Identity proofing and verification
+* Mobile Strong authentication
+* Mozilla BrowserId
+* Privacy preserving IDM
+* Online reputation
+* Payment and Identity
+* Personal Data Store / Personal Cloud
+* SAML/OpenID/OAuth: Competing vs. hybrid scenarios
+* SCIM
+* WebSSO technologies: OpenID Connect, OAuth, JWT, JOSE
+* XDI
 
  
 ## Topics from the 2013 survey
