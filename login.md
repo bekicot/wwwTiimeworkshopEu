@@ -1,5 +1,6 @@
 ---
 layout: page
 title: Login
-position: 3
+position: 4
+permalink: /login
 ---

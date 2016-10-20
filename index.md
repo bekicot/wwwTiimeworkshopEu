@@ -5,8 +5,9 @@ position: 1
 ---
 
 
-=Trust & Internt Identity Meeting Europe:
-==Connecting Business - Government - Research & Education
+# Trust & Internt Identity Meeting Europe:
+
+## Connecting Business - Government - Research & Education
 
 At this conference people are working towards a better understanding and developing new concepts, using an agile format with participant-driven contents, covering the attendees’ current interests. TIIME's format has been designed for solving trust and identity issues. Starting in 2013, TIIME made this format available in Europe and received excellent feedback from participants. If you are looking for a substantial discussion on this subject it is likely that you will meet the right people here!
 This was the third Workshop in Vienna 2015
@@ -24,7 +25,7 @@ While “better” identities like Facebook’s real names or government issued 
 
 Each subtopic is covered in a keynote.
 
-TIIME 20176 Date & Location
+## TIIME 20176 Date & Location
 
  
 

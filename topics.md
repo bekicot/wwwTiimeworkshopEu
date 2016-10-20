@@ -2,9 +2,10 @@
 layout: page
 title: Topics
 position: 2
+permalink: /topics
 ---
 
-= Explore Identity Management Issues and Initiatives
+# Explore Identity Management Issues and Initiatives
 
 Internet identity, identity federation and personal data online are complex, continually evolving areas. The event is inspired by similar events such as the Internet Identity Workshop in California and Identity North in Canada.
 Participants will seek deeper understanding, and better solutions to challenges like:
@@ -35,7 +36,7 @@ There are numerous IDM-related efforts and projects in both private and public s
 Proposed Topics
 
 The agenda will be created dynamically by participants at the beginning of each day. Starting this year, participants have the option to propose  topics via a survey in advance. See the current list. The context of the workshop suggests topics such as:
-== Categories
+## Categories
 
     Connecting different types of stakeholders (startups, enterprise, investors, privacy experts)
     Federation & cloud identity
@@ -45,7 +46,7 @@ The agenda will be created dynamically by participants at the beginning of each 
     Identity initiatives - connect, learn, contribute, join
     User-centric identity management
 
-== Topics
+## Topics
 
     Attribute management
     Business cases for federated IDM
@@ -64,8 +65,8 @@ The agenda will be created dynamically by participants at the beginning of each 
     XDI
 
  
-Topics from the 2013 survey
-I want to present about:
+## Topics from the 2013 survey
+### I want to present about:
 
 Country: Austrian's govermental identity federations
 Country: Denmark eID status and developments
@@ -86,7 +87,7 @@ SPML dead or alive?
 STORK/SAML use cases for existing federations (2) follow up discussion on SAML interop. w.r.t. STORK, collecting proposals from the SSI-WG (especially on harmonisation) for STORK to eventually share with ISA STORK Sustainability Action. If other topics are discussed (i.e. benefits/gaps for integration with some existing federations) I can also convey this to STORK.
 W3C wifi device API and spec to configure EAP (namely eduroam connections).
 
-I want to learn about:
+### I want to learn about:
 
 Agent technology for privacy and identity management
 AuthN: Second factor authentication and new second factor authentication methods
