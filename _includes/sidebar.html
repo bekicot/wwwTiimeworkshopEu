@@ -1,0 +1,17 @@
+<div class="sidebar-module sidebar-module-inset">
+  <h4>Sponsors</h4>
+  <img src="{{'/img/sponsors/fh_technikum_wien400.png' | prepend: site.baseurl}}" class="img-fluid img-thumbnail">
+  <img src="{{'/img/sponsors/Geant Logo masked400.png' | prepend: site.baseurl}}" class="img-fluid img-thumbnail">
+  <img src="{{'/img/sponsors/isoc_logo400.png' | prepend: site.baseurl}}" class="img-fluid img-thumbnail">
+  <img src="{{'/img/sponsors/kantara400.png' | prepend: site.baseurl}}" class="img-fluid img-thumbnail">
+</div>
+<div class="sidebar-module">
+  <h4>Archives</h4>
+  <ol class="list-unstyled">
+    <hr>
+    {% for post in site.posts %}
+      <li><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></li>
+      <hr>
+    {% endfor %}
+  </ol>
+</div>

@@ -1,7 +1,9 @@
-<header id="header" class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
-    <div class="wrap">
-        <div class="title-area">
-            <h2 class="site-title" itemprop="headline"><a href="index.html" title="Federation Lab" rel="home">{{site.title}}</a></h2>
-            <h3 class="site-description"><span>{{site.description}}</span></h3></div>
-    </div>
-</header>
+<div class="container">
+  <div class="jumbotron text-xs-center">
+    <h1 class="display-3">{{site.title}}</h1>
+    <p class="lead">{{site.description}}</p>
+    <hr>
+    <p class="lead">In Cooperation With</p>
+    <img src="{{ '/img/sponsors/GeantLogo184x80.png' | prepend: site.baseurl }}" alt="">
+  </div>
+</div>
