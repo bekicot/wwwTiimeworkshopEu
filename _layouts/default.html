@@ -4,16 +4,17 @@
   {% include head.html %}
 
   <body>
-
     {% include header.html %}
-
-    <div class="site-inner">
-      <div class="wrap">
-        {{ content }}
+    <div class="container-fluid" style="background-color: black;">
+      <div class="site-inner">
+        <div class="wrap">
+          {{ content }}
+        </div>
       </div>
     </div>
 
     {% include footer.html %}
+    {% include javascripts.html %}
 
   </body>
 

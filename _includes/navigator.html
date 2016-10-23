@@ -1,13 +1,24 @@
 {% assign pages = site.pages | sort:"position"  %}
-<nav class="nav-primary" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-    <div class="wrap"><a href="#" id="menu-icon" class="menu-icon"><span></span></a>
-        <ul id="menu-menu" class="menu omega-nav-menu menu-primary">
-            {% for page in pages %}
-                {% if page.show_on_menu == 'yes' %}
-                  <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-28 current_page_item"><a href="{{ page.url | prepend: site.baseurl}}">{{page.title}}</a></li>
-
-                {% endif %}
-            {% endfor %}
-        </ul>
-    </div>
+<nav class="navbar navbar-light bg-faded">
+  <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
+  <a class="navbar-brand" href="#">
+    <img src="{{ '/img/logo-head-transparent.png' | prepend: site.baseurl }}" alt="" width="30" height="40"> TIIME
+  </a>
+  <div class="collapse navbar-toggleable-sm" id="navbarResponsive">
+    <ul class="nav navbar-nav float-lg-right">
+      {% for link in pages %}
+          {% if link.show_on_menu == 'yes' %}
+            {% if link.url == page.url %}
+              <li class="nav-item active">
+                <a href="{{ link.url | prepend: site.baseurl}}" class="nav-link">{{link.title}} </a>
+              </li>
+            {% else %}
+              <li class="nav-item">
+                <a href="{{ link.url | prepend: site.baseurl}}" class="nav-link">{{link.title}}</a>
+              </li>
+            {% endif %}
+          {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
 </nav>
