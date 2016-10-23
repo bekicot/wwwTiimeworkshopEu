@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{% for post in site.posts %}
+  <div class="blog-post">
+      <a href="{{post.url | prepend: site.baseurl}}"><h2 class="blog-post-title">{{post.title}}</h2></a>
+      <p class="blog-post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+      {{ post.content }}
+  </div>
+{% endfor %}
+
+<!-- /.blog-post -->
+<nav class="blog-pagination">
+    <a class="btn btn-outline-primary" href="#">Older</a>
+    <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
+</nav>
