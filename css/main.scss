@@ -24,6 +24,9 @@ $logo-foreground-color: #3E2D0E;
 .jumbotron {
   .jumbotron-logo {
     margin-top: 10px;
+    img {
+      margin-top: -4em;
+    }
   }
 }
 .jumbotron-description {
