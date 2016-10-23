@@ -17,17 +17,25 @@ $logo-foreground-color: #3E2D0E;
 .jumbotron {
   padding: 0px;
   min-height: 200px;
+  h1 {
+    font-family: Optima;
+  }
 }
-
+.jumbotron {
+  .jumbotron-logo {
+    margin-top: 10px;
+  }
+}
 .jumbotron-description {
   padding-top: 30px;
 }
 
 .about-profile-picture {
-  margin: 10px;
+  margin: 15px;
+  margin-bottom: 5px;
   display: block;
-  max-width: 230px;
-  max-height: 300px;
+  max-width: 170px;
+  max-height: 170px;
   width: auto;
   height: auto;
 }
