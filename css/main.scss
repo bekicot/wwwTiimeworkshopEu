@@ -1,5 +1,6 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
+show_on_menu: no
 ---
 @charset "utf-8";
 
@@ -12,6 +13,24 @@ $logo-foreground-color: #3E2D0E;
         "syntax-highlighting",
         "tiime"
 ;
+
+.jumbotron {
+  padding: 0px;
+  min-height: 200px;
+}
+
+.jumbotron-description {
+  padding-top: 30px;
+}
+
+.about-profile-picture {
+  margin: 10px;
+  display: block;
+  max-width: 230px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+}
 
 .jumbotron {
 background-image: url({{'/img/background01.png' | prepend: site.baseurl}});

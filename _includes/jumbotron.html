@@ -1,9 +1,14 @@
 <div class="container">
-  <div class="jumbotron text-xs-center">
-    <h1 class="display-3">{{site.title}}</h1>
-    <p class="lead">{{site.description}}</p>
-    <hr>
-    <p class="lead">In Cooperation With</p>
-    <img src="{{ '/img/sponsors/GeantLogo184x80.png' | prepend: site.baseurl }}" alt="">
+  <div class="jumbotron">
+    <div class="col-md-3 text-md-left text-xs-center">
+      <img src="{{ '/img/logo-head-transparent.png' | prepend: site.baseurl }}" alt="" width="90" height="120"><h1>TIIME</h1>
+    </div>
+    <div class="col-md-6 jumbotron-description">
+      <h2 class="text-xs-center">{{site.description}}</h2>
+    </div>
+    <div class="col-md-3 text-md-right text-xs-center">
+      <p>In Cooperation With</p>
+      <img src="{{ '/img/sponsors/GeantLogo184x80.png' | prepend: site.baseurl }}" class="img-fluid">
+    </div>
   </div>
 </div>
