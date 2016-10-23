@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "Connecting Business - Government - Research & Education"
-date: 2016-10-23T17:01:40+07:00
+title: "Connecting Professionals Across Sectors"
 ---
 
 
@@ -15,7 +14,7 @@ Sessions will be run in an agile format centering the subtopics on the actual in
 of the participants. Interest, questions or contributions can be posted in the pre-conference survey. 
 
 
-### Authentication, Attributes, Federation Protocols, Crypto and Architecture
+### Authentication, Attributes, Federation and Crypto
 
 Identity federation has been thriving in certain vertical domains and is increasingly arriving in various 
 industry sectors to support ever more business processes. Organizations have to choose from different 

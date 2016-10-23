@@ -6,8 +6,6 @@ permalink: /about
 ---
 
 
-# About
-
 The Trust & Internt Identity Meeting Europe (TIIME) is a yearly event 
 organized by Rainer Hörbe from Identinetics. 
 The event tries to improve the cooperation between the events and communities 
@@ -18,17 +16,16 @@ of trans-organizational trust and identity matters.
 
 EWTI is run by Identinetics, backing the operation as legal entity:
 
-Identinetics IT-Services GmbH
+>Identinetics IT-Services GmbH
+>W.-A.-Mozart-Straße 1/4
+>3430 Tulln,  Austria
+>Tel: +43 664 381 1433
+>Fax: +43 1 2533 0334 271
+>Mail: office@identinetics.com
 
-W.-A.-Mozart-Straße 1/4
-3430 Tulln,  Austria
-Tel: +43 664 381 1433
-Fax: +43 1 2533 0334 271
-Mail: office@identinetics.com
-
-Commercial register number: 318886 a
-General Manager: Rainer Hörbe
-VATID: ATU64526837
+>Commercial register number: 318886 a
+>General Manager: Rainer Hörbe
+>VATID: ATU64526837
 
 ## Bio
 
