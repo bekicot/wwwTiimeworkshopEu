@@ -5,9 +5,7 @@ position: 3
 permalink: /about
 ---
 
-
-The Trust & Internt Identity Meeting Europe (TIIME) is a yearly event 
-organized by Rainer Hörbe from Identinetics. 
+![Profile Picture]({{ '/img/Rainer_RF_2013-8a-masked-250.png' | prepend: site.baseurl }} "Logo Title Text 1"){: .rounded .float-xs-left .img-thumbnail .about-profile-picture}  Organized by Rainer Hörbe from Identinetics. 
 The event tries to improve the cooperation between the events and communities 
 that have been a leading space of innovation working on the various topics 
 of trans-organizational trust and identity matters.
@@ -29,6 +27,7 @@ EWTI is run by Identinetics, backing the operation as legal entity:
 
 ## Bio
 
+The Trust & Internt Identity Meeting Europe (TIIME) is a yearly event 
 Rainer Hörbe assumed roles as security and identity architect in 
 identity-related projects like the Austrian e-Government federation and 
 European projects (epSOS, ATTPS, MAPPING). He is chair of the eGov WG at 

@@ -1,26 +1,39 @@
 {% assign pages = site.pages | sort:"position"  %}
 <div class="container">
-  <nav class="navbar navbar-light bg-faded">
-    <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
-    <a class="navbar-brand" href="#">
-      <img src="{{ '/img/logo-head-transparent.png' | prepend: site.baseurl }}" alt="" width="30" height="40"> TIIME
-    </a>
-    <div class="collapse navbar-toggleable-sm" id="navbarResponsive">
-      <ul class="nav navbar-nav float-md-right">
-        {% for link in pages %}
-            {% if link.show_on_menu == 'yes' %}
-              {% if link.url == page.url %}
-                <li class="nav-item active">
-                  <a href="{{ link.url | prepend: site.baseurl}}" class="nav-link">{{link.title}} </a>
-                </li>
-              {% else %}
-                <li class="nav-item">
-                  <a href="{{ link.url | prepend: site.baseurl}}" class="nav-link">{{link.title}}</a>
-                </li>
-              {% endif %}
-            {% endif %}
-        {% endfor %}
-      </ul>
+  <div class="row">
+    <div class="float-xs-right">
+      <nav class="navbar navbar-dark bg-inverse">
+        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-toggleable-sm" id="navbarResponsive">
+          <ul class="nav navbar-nav float-md-right">
+            {% for link in pages %}
+                {% if link.show_on_menu == 'yes' %}
+                  {% if link.url == page.url %}
+                    <li class="nav-item active">
+                      <a href="{{ link.url | prepend: site.baseurl}}" class="nav-link">
+                        {% if link.navigator_name %}
+                          {{link.navigator_name}}
+                        {% else %}
+                          {{link.title}}
+                        {% endif %}
+                      </a>
+                    </li>
+                  {% else %}
+                    <li class="nav-item">
+                      <a href="{{ link.url | prepend: site.baseurl}}" class="nav-link">
+                        {% if link.navigator_name %}
+                          {{link.navigator_name}}
+                        {% else %}
+                          {{link.title}}
+                        {% endif %}
+                      </a>
+                    </li>
+                  {% endif %}
+                {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </nav>
     </div>
-  </nav>
+  </div>
 </div>
