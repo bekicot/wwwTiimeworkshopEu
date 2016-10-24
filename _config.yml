@@ -22,3 +22,4 @@ defaults:
     values:
       use_jumbotron: "yes"
       show_on_menu: "yes"
+      show_title: "yes"

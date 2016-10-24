@@ -3,6 +3,7 @@ layout: page
 title: Topics
 position: 2
 permalink: /topics
+show_title: no
 ---
 
 # Explore Identity Management Issues and Initiatives
@@ -45,6 +46,25 @@ The agenda will be created dynamically by participants at the beginning of each 
 * PKI and secure collaboration
 * Identity initiatives - connect, learn, contribute, join
 * User-centric identity management
+
+## Topics
+
+    Attribute management
+* Business cases for federated IDM
+* Discovery service, Account Chooser
+* Delegated authZ, UMA
+* Identity proofing and verification
+* Mobile Strong authentication
+* Mozilla BrowserId
+* Privacy preserving IDM
+* Online reputation
+* Payment and Identity
+* Personal Data Store / Personal Cloud
+* SAML/OpenID/OAuth: Competing vs. hybrid scenarios
+* SCIM
+* WebSSO technologies: OpenID Connect, OAuth, JWT, JOSE
+* XDI
+
  
 ## Topics from the 2013 survey
 ### I want to present about:
